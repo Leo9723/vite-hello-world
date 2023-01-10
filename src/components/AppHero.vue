@@ -1,15 +1,15 @@
 <script>
 export default {
-    name: "Jumbotron",
+    name: "AppHero",
     data() {
         return {
-            JumboImg: '../assets/jumbo.jpg'
+            AppHero: '/public/jumbo.jpg'
         }
     },
 }
 </script>
 <template>
-        {{ JumboImg }}
+        <img :src="AppHero" alt="">
 </template>
 <style>
     
